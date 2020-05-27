@@ -1,0 +1,110 @@
+#chess{
+  width: 200px;
+}
+.flex-container > h2{
+  width:700px;
+  border-color: black;
+  margin: 10px
+}
+.flex-container{
+  display:flex;
+  justify-content:space-evenly;
+}
+.flex-container > table{
+  margin:50px
+}
+}
+#white-table{
+  margin-left: 500px;
+}
+.list > ul{
+  margin-bottom: 50px;
+}
+.flex-container2{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: 17px;
+}
+.stacked{
+  display:flex;
+  justify-content: space-around;
+}
+.stacked img{
+  height:auto;
+  margin: 55px;
+  width: 300px;
+}
+.header{
+  width: 300px;
+}
+#inputs{
+  margin: 10px;
+}
+@media (min-width: 500px){
+    .flex-container{
+      display: flex;
+      flex-wrap:wrap;
+    }
+}
+.kings{
+  height: 250px;
+  width: 250px;
+}
+.tester{
+  display:inline;
+}
+.tester > img{
+  float: right;
+  margin-right: 70px;
+  margin-left: 20px;
+}
+.tester > p{
+  text-align: top;
+  margin-left: 70px;
+}
+.tester-left > img{
+  float:left;
+  margin-left:70px;
+  margin-right: 20px;
+}
+.text{
+  font-size: 23px;
+}
+.qgaccepted{
+  display:flex;
+}
+.qgaccepted > figure{
+  float:left;
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.qgaccepted > p{
+  text-align: top;
+  align-self: center;
+  margin-right: 70px;
+}
+.figcap{
+  text-align: center;
+}
+.qg-sec{
+  margin-left: 15px;
+}
+.card-deck{
+  width: 700px;
+  height: auto;
+  justify-content: flex-end;
+}
+.flex-container a{
+  color: inherit;
+}
+#qg{
+  background-color: #FFF5E5;
+}
+#pon{
+  background-color: #FFE8C4;
+}
+#kg{
+  background-color: #FFECCF;
+}

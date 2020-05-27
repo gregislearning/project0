@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Webpage</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="openings.html">Openings</a>
+        <a class="nav-item nav-link" href="midgame.html">Mid Game</a>
+        <a class="nav-item nav-link" href="endgame.html">End Game</a>
+      </div>
+    </div>
+  </nav>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="styles.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <div class="flex-container">
+        <title>Chess Tracker</title>
+        <h2 class="h2"> This website will serve as an area where I can input data on my Chess games and analyze them, hopefully it is of some use. </h2>
+        <figure>
+        <a href="https://www.chess.com/home" target="_blank"><img src="chess.jpeg" alt="Chess Board" id=chess style= width:300px;></a>
+          <figcaption class="capt" style=text-align: center;>Click to Chess.com</figcaption>
+        </figure>
+      </div>
+    </head>
+    <body>
+      <h2>Quick Link Openings</h2>
+      <div class="list">
+          <ul class="list-group" style=width:300px;>
+            <li class="list-group-item"><a href="openings.html">Queen's Gambit</a></li>
+            <li class="list-group-item"><a href="#"> Opening 2</a></li>
+            <li class="list-group-item"><a href="#"> Opening 3</a></li>
+          </ul>
+      </div>
+      <h2>Stats Table</h2>
+      <div class="flex-container">
+          <table class="table table-sm table-hover table-dark table-bordered" style= width:300px;>
+            <caption style= caption-side:top> Pre-Website</caption>
+          <thead>
+            <tr>
+              <th scope="col">Color</th>
+              <th scope="col">Wins</th>
+              <th scope="col">Losses</th>
+              <th scope="col">%</th>
+            </tr>
+          </thead>
+          <tbody>
+                <tr>
+                  <td>Black</td>
+                  <td>50</td>
+                  <td>500</td>
+
+                </tr>
+                <tr>
+                  <td>White</td>
+                  <td>100w</td>
+                  <td>50</td>
+                </tr>
+          </tbody>
+          </table>
+          <table id="white-table" class="table table-sm table-hover table-bordered" style= width:300px;>
+            <caption style= caption-side:top> Post-Website</caption>
+          <thead>
+            <tr>
+              <th scope="col">Color</th>
+              <th scope="col">Wins</th>
+              <th scope="col">Losses</th>
+              <th scope="col">%</th>
+            </tr>
+          </thead>
+          <tbody>
+                <tr>
+                  <td>Black</td>
+                  <td>50</td>
+                  <td>500</td>
+
+                </tr>
+                <tr>
+                  <td>White</td>
+                  <td>100w</td>
+                  <td>50</td>
+                </tr>
+          </tbody>
+          </table>
+          <div class="flex-container">
+              <div class="opening-block">
+                <figure><a href="queensgambit.html"><img src="QueensGambit.jpg" alt="Queen's Gambit"></a>
+                <figcaption class="figcap">Queen's Gambit</figcaption></figure>
+              </div>
+              <div class="opening-block">
+              <figure><a href="queensgambit.html"><img src="Kingsgambit.jpg" alt="King's Gambit" class="kings"></a>
+                <figcaption class="figcap">King's Gambit</figcaption></figure>
+              </div>
+              <div class="opening-block">
+                <figure><a href=#><img src="ponziani.jpg" alt="Ponziani"></a>
+                  <figcaption class="figcap">Ponziani</figcaption></figure>
+              </div>
+          </div>
+        </div>
+      <div class="flex-container">
+        <div>
+          <input value="Submit" placeholder="Stats">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+
+    </body>
+</html>
